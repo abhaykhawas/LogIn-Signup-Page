@@ -1,0 +1,87 @@
+form{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .div1{
+    position: relative;
+    top: 30%;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(60, 125, 230,0.5),rgba(113, 235, 186,0.2));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  label{
+    display: block;
+    margin-bottom: 10px;
+  /*   color: gray; */
+    background-image: linear-gradient(blue,purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: verdana;
+    font-weight: bold;
+  }
+  
+  input{
+    border-style: none;
+    background: linear-gradient(darkblue,gray);
+    border-radius: 15px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  input[type="submit"]{
+    color: white;
+    background: transparent;
+    padding: 10px 30px;
+    border: 6px solid transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);background-image: linear-gradient(darkblue,gray), radial-gradient(circle at top left, #f00,#3020ff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 80px;
+    
+  }
+  /* input[type="submit"]::after{
+      
+  } */
+  input[type="submit"]:hover{
+    background: linear-gradient(gray,black);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2,1.2);
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left,#3020ff,#f00);background-image: linear-gradient(gray,black), radial-gradient(circle at top left,#3020ff,#f00);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 80px;
+  }
+  
+  body{
+    background: url('https://media.istockphoto.com/photos/hacker-dark-face-using-laptop-picture-id1133604495?k=20&m=1133604495&s=612x612&w=0&h=QX5zvMG1qvfiz10hE5bSUXMj4eRMRTZF4qg3EIr-ffo=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    
+  }
+  
+  .div1:hover{
+    box-shadow: 0 0 20px 10px rgba(118, 10, 206, 0.5);
+  }
+  
+  *:focus {
+      outline: none;
+  }
+  
+  input{
+    padding-left: 20px;
+    color: #a1aba5;
+    font-family:Helvetica;
+  }
